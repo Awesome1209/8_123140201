@@ -21,7 +21,7 @@
 
 ## 📖 Deskripsi Proyek
 
-Project ini merupakan evolusi dari **Tugas 7 - Notes App Local Data Storage** menjadi **Tugas 8 - Platform-Specific Features**. Aplikasi tetap mempertahankan fitur utama Notes App seperti SQLDelight, CRUD, search, favorite, settings, offline-first, dan remote sync, lalu ditingkatkan dengan fitur platform-specific menggunakan **expect/actual**, **Koin Dependency Injection**, **DeviceInfo**, **NetworkMonitor**, dan **BatteryInfo**.
+Project ini merupakan aplikasi yang berisi fitur utama Notes App seperti SQLDelight, CRUD, search, favorite, settings, offline-first, dan remote sync, lalu ditingkatkan dengan fitur platform-specific menggunakan **expect/actual**, **Koin Dependency Injection**, **DeviceInfo**, **NetworkMonitor**, dan **BatteryInfo**.
 
 Bottom navigation aplikasi:
 
@@ -73,18 +73,16 @@ Aplikasi dirancang sebagai **modern productivity notes app** dengan tampilan das
 ### 🎥 Demo Video
 
 > **Tonton demo aplikasi di sini:**  
-> [🔗 Video Demo Aplikasi - Google Drive](ISI_LINK_GOOGLE_DRIVE_KAMU_DI_SINI)
-
+> https://s.itera.id/Demo-Tugas-PAM
 ### 📸 Screenshot Dokumentasi
 
 | Notes Page | Favorites Page |
 | :---: | :---: |
-| <img width="720" height="1600" alt="notes-page" src="ISI_LINK_SCREENSHOT_NOTES_PAGE" /> | <img width="720" height="1600" alt="favorites-page" src="ISI_LINK_SCREENSHOT_FAVORITES_PAGE" /> |
+| <img width="720" height="1600" alt="tugas83" src="https://github.com/user-attachments/assets/d51b54af-2c1e-4442-a995-d65c4204a1dd" /> | <img width="720" height="1600" alt="tugas81" src="https://github.com/user-attachments/assets/7008fe12-c8bd-4dc6-b844-14bfbe660965" /> |
 
 | Profile / Device Dashboard | Offline Network Indicator |
 | :---: | :---: |
-| <img width="720" height="1600" alt="profile-page" src="ISI_LINK_SCREENSHOT_PROFILE_PAGE" /> | <img width="720" height="1600" alt="offline-state" src="ISI_LINK_SCREENSHOT_OFFLINE_STATE" /> |
-
+| <img width="720" height="1600" alt="tugas82" src="https://github.com/user-attachments/assets/9876c4ac-402c-4e56-a443-20c45e2dd0de" /> | <img width="720" height="1600" alt="tugas84" src="https://github.com/user-attachments/assets/80cf3d39-5022-48af-8057-ff39b169559b" /> |
 ---
 
 ## 🧭 Alur Navigasi
@@ -253,7 +251,6 @@ Aplikasi menggunakan permission berikut:
 | Network Status Indicator di main screen | ✅ |
 | Semua dependency utama melalui Koin | ✅ |
 | BatteryInfo bonus | ✅ |
-| Fitur Tugas 7 tetap berjalan | ✅ |
 | README dokumentasi | ✅ |
 | Modern icon-based UI | ✅ |
 
@@ -274,7 +271,3 @@ Build via terminal:
 ```
 
 ---
-
-## 📌 Catatan
-
-Aplikasi tetap memakai database lokal sebagai sumber utama data. Fitur platform-specific hanya menambah kemampuan membaca informasi perangkat, jaringan, dan baterai tanpa menghilangkan fitur local storage dari Tugas 7.
